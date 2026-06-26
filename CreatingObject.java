@@ -4,9 +4,10 @@ public class CreatingObject {
 
     public static void main(String[] args) throws Exception
     {
-        Class  c = Class.forName("Employee");
-        Object o=c.newInstance();
-        Employee emp=(Employee) o;
+        //the parameter or the passing value should be class in String type
+        Class  class = Class.forName("Employee");
+        Object object=c.newInstance();
+        Employee emp=(Employee) object;
         System.out.println(emp.id);
         //Calling Status method
         emp.status();
