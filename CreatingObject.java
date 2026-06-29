@@ -1,4 +1,3 @@
-
 public class CreatingObject {
     
 
@@ -13,8 +12,7 @@ public class CreatingObject {
         emp.status();
     }
 }
-class Employee
-{
+class Employee {
     int id=23;
     public void status(){
         System.out.print("Status is Active");
