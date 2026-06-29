@@ -5,7 +5,7 @@ public class CreatingObject {
     {
         //the parameter or the passing value should be class in String type
         Class  class = Class.forName("Employee");
-        Object object=c.newInstance();
+        Object object=class.newInstance();
         Employee emp=(Employee) object;
         System.out.println(emp.id);
         //Calling Status method
